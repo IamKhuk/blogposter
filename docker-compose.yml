@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: koa-knex-realworld-example-api
+    command: npm run start
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - db:/usr/src/app/data
+
+
+  redis:
+    image: "redis:latest"
+    container_name: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: blogposter-frontend
+    ports:
+      - "4173:4173" 
+
+
+volumes:
+  db:
+  redis-data:
+
+# networks:
+#   app-network:
+#     driver: bridge
