@@ -7,29 +7,18 @@
 1. Clone this repo
 2. Open the folder in terminal and run `docker-compose build`, then `docker-compose up`
    
-<img width="968" alt="1" src="https://github.com/IamKhuk/blogposter/assets/78492625/54a55c96-7529-4a58-80c2-95ba9ea248b6">
+<img width="887" alt="up" src="https://github.com/IamKhuk/blogposter/assets/78492625/b1d0f51e-7196-4b43-9f25-efa7786f7347">
 
-The project is now running. You can check this by opening `localhost:3000` in the browser.
-It shows as following:
+<img width="1027" alt="docker" src="https://github.com/IamKhuk/blogposter/assets/78492625/ffcd2c09-82c9-4f5f-abe5-96470ecca863">
 
-<img width="1440" alt="2" src="https://github.com/IamKhuk/blogposter/assets/78492625/c373466d-ced6-4459-8401-dfbfb2884d1b">
-
-It means, there is no error. it shows like this because it is the backend.
-We created a website with the APIs of the project using VueJS, just to show the usage of the APIs.
-
-## Do the following to check how it looks:
-
-1. If you do not have, VueJS Instal [Node.JS](https://nodejs.org/en/download/package-manager/) latest version
-2. Clone this `https://github.com/IamKhuk/blogposter-frontend.git` repo
-3. Run `npm install`
-4. Run `npm run dev`, then, if it is asking for permission, run `chmod +x node_modules/.bin/vite`
-5. Open `http://localhost:5173/` or `http://127.0.0.1:5173/` in the browser
+The project is now running. You can check this by opening `localhost:4173` in the browser.
 
 ## How it looks:
-<img width="1440" alt="3" src="https://github.com/IamKhuk/blogposter/assets/78492625/e5c14ea3-1c06-4c3d-8118-497bcd6915c0">
-<img width="1440" alt="4" src="https://github.com/IamKhuk/blogposter/assets/78492625/0ee4631f-3747-4a92-962e-594de5010128">
-<img width="1440" alt="5" src="https://github.com/IamKhuk/blogposter/assets/78492625/bb006502-6a58-44cb-803f-c84ef85ae298">
-<img width="444" alt="6" src="https://github.com/IamKhuk/blogposter/assets/78492625/8ef9f536-71a6-4ef3-9c64-afcc798d19f0">
-<img width="1440" alt="7" src="https://github.com/IamKhuk/blogposter/assets/78492625/4f6ca565-61c9-43ce-98e0-726cd58581cf">
+
+<img width="1440" alt="3 13 14 50" src="https://github.com/IamKhuk/blogposter/assets/78492625/ae591207-cbf7-471e-840a-bf1c95e6ddf5">
+<img width="1440" alt="4 13 14 50" src="https://github.com/IamKhuk/blogposter/assets/78492625/b15b9e2a-07e0-45dc-b5f9-cbb5843826d3">
+<img width="1440" alt="5 13 14 50" src="https://github.com/IamKhuk/blogposter/assets/78492625/741b419b-86b6-4185-a885-733dbf7c7a08">
+<img width="444" alt="6 13 14 50" src="https://github.com/IamKhuk/blogposter/assets/78492625/43de7220-47a9-47ff-acdd-3a292c448f60">
+<img width="1440" alt="7 13 14 50" src="https://github.com/IamKhuk/blogposter/assets/78492625/24b9ed2e-ed23-4fb3-ab1c-cc7d6a89d744">
 
 # blogposter
